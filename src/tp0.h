@@ -2,9 +2,21 @@
 #define TP0_H_
 #include <stdio.h>
 
+enum tipo_pokemon {
+    TIPO_ELEC,
+    TIPO_FUEG,
+    TIPO_PLAN,
+    TIPO_AGUA,
+    TIPO_NORM,
+    TIPO_FANT,
+    TIPO_PSI,
+    TIPO_LUCH
+};
+
 struct pokemon {
 	int id;
 	char *nombre;
+	enum tipo_pokemon tipo;
 	int ataque;
 	int defensa;
 	int velocidad;
