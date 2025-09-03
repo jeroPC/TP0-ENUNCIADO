@@ -3,14 +3,14 @@
 #include <stdio.h>
 
 enum tipo_pokemon {
-    TIPO_ELEC,
-    TIPO_FUEG,
-    TIPO_PLAN,
-    TIPO_AGUA,
-    TIPO_NORM,
-    TIPO_FANT,
-    TIPO_PSI,
-    TIPO_LUCH
+	TIPO_ELEC,
+	TIPO_FUEG,
+	TIPO_PLAN,
+	TIPO_AGUA,
+	TIPO_NORM,
+	TIPO_FANT,
+	TIPO_PSI,
+	TIPO_LUCH
 };
 
 struct pokemon {
